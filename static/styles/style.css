@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(235, 231, 231);
+}
+.main{
+    background: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.head{
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.logo p{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.nav{
+    margin-right: 30px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content p{
+    height: 300px;
+    color: rgb(8, 19, 121);
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 400px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.banner{
+    width: 100%;
+}
+.content img{
+    width: 100%; 
+    height: 650px; 
+    opacity: 100%; 
+}
+.black{
+    background: black;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    opacity: 30%;
+}
+.title{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    margin-left: 30%;
+    color: aliceblue;
+    font-size:60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    background: blueviolet;
+    height: 50px;
+    margin-top: -3px;
+}
+/*About Style*/
+
+
